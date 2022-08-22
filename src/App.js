@@ -8,12 +8,11 @@ function App() {
   return <h1 className="text-3xl font-bold flex justify-center mt-4">Hello, {name} </h1>
  }
   
- //which is the best practice?
-
+ 
   return (
     <>
-     <Myf name="mic"/>
-     {myf2('mic')}
+     <Myf name=""/>
+     {myf2()}
     </>
   );
 }

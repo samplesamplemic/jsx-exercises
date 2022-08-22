@@ -1,0 +1,3 @@
+What happens if the name variable is not passed to the function?
+
+Answer: the variable won't be rendered, but the rest of jsx expression will be displayed.
