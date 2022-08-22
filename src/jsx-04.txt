@@ -1,0 +1,3 @@
+What happens if the name variable contains a JSX expression instead of a string?
+
+Answer: we can pass a jsx expression, that it will go through a transpiling process where it's translated into javascript and html.

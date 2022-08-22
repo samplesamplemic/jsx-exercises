@@ -1,6 +1,7 @@
 import './App.css';
 
 function App() {
+  const name = <span className="text-3xl font-bold">mic</span>;
   const Myf = (props) => {
   return <h1 className="text-3xl font-bold flex justify-center mt-4">Hello, {props.name} </h1>
  }
@@ -11,8 +12,8 @@ function App() {
  
   return (
     <>
-     <Myf name=""/>
-     {myf2()}
+     <Myf name={name} />
+     {myf2(name)}
     </>
   );
 }
